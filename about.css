@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Jura"; 
+    src: url("../site/res/fonts/Jura.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jura";
+    /* background-image: url(../site/res/img/pic1.jpg); */
+    /* background-size: 200% 100%; */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(18, 61, 31);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.logo {
+    margin-right: 2vh;
+
+}
+
+.headertext {
+    margin-right: 20vh;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.post p {
+    color: white;
+    margin-right: 10px;
+}
+
+.post a {
+    color:white;
+    text-decoration:none;
+}
+
+.soc {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.soc-text {
+    position: relative;
+    margin-right: 40px;
+}
+
+.soc-ico {
+    display: flex;
+    align-items: center;
+    margin-right: 2vh;
+}
+
+.soc-ico a {
+    position: relative;
+    margin-right: 20%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    align-content: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.nav-item {
+    color:white;
+    text-decoration: none;
+    margin: 1% 1%;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color:white;
+    display: block;
+    background-color: rgb(170, 107, 24);
+    box-shadow: -15px 0 0 rgb(170, 107, 24), 15px 0 0 rgb(170, 107, 24);
+    border-radius: 5px;
+}
+
+
+.ananas h1 {
+    color:white;
+    text-align: center;
+}

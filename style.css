@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Jura"; 
+    src: url("../site/res/fonts/Jura.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jura";
+    /* background-image: url(../site/res/img/pic1.jpg); */
+    /* background-size: 200% 100%; */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(18, 61, 31);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.logo {
+    margin-right: 2vh;
+
+}
+
+.headertext {
+    margin-right: 20vh;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.post p {
+    color: white;
+    margin-right: 10px;
+}
+
+.post a {
+    color:white;
+    text-decoration:none;
+}
+
+.soc {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.soc-text {
+    position: relative;
+    margin-right: 40px;
+}
+
+.soc-ico {
+    display: flex;
+    align-items: center;
+    margin-right: 2vh;
+}
+
+.soc-ico a {
+    position: relative;
+    margin-right: 20%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    align-content: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.nav-item {
+    color:white;
+    text-decoration: none;
+    margin: 1% 1%;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color:white;
+    display: block;
+    background-color: rgb(170, 107, 24);
+    box-shadow: -15px 0 0 rgb(170, 107, 24), 15px 0 0 rgb(170, 107, 24);
+    border-radius: 5px;
+}
+
+.main-block {
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-pic {
+    position: relative;
+    margin: 2%;
+    width: 200%;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+.main-text {
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 2% 2% 2% 2%;
+}
+
+.content-block {
+    border-radius: 10px;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+p#p1 {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.games-table {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.games-table table {
+    width: 100%;
+    border-collapse:collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border:1px solid;
+    padding: 10px;
+}
+
+.games-table th {
+    height: 40px;
+    width: 300px;
+    border-collapse:collapse;
+    border:1px solid;
+}
+
+.games-table tr {
+    border-spacing: 1px;
+    border-style: inset;
+    border-color: black;       
+}
+
+.tr-h {
+    background-color: rgb(170, 107, 24);
+    color:black;
+    font-size: 18px;
+}
+
+.links {
+    font-size: 18px;
+    position: relative;
+    color: white;
+    margin: 2%;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.links p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.links ul {
+    color:white;
+    line-height: 1.75;
+    list-style: square;
+
+}
+
+.links a {
+    font-size: 17px;
+    color:white;
+    line-height: 1.75;
+    list-style: square;
+    padding-left: 2%;
+}
+
+.footer {
+    font-size: 17px;
+    display: flex;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: center;
+    background-color: rgb(170, 107, 24);
+    color: rgb(255, 255, 255)
+}
